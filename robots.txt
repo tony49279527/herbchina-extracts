@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://herbchina-extracts.vercel.app/sitemap.xml
