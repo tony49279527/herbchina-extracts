@@ -3,9 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact — HerbChina Extracts</title>
-  <meta name="description" content="Contact HerbChina Extracts for botanical and mushroom extract quotations. Phone / WhatsApp / WeChat: +86 135 7292 7148.">
+  <title>Contact & Request a Quote | HerbChina Extracts</title>
+  <meta name="description" content="Contact HerbChina Extracts for botanical and mushroom extract quotations. Phone / WeChat: +86 135 7292 7148. We aim to respond within 24 hours.">
   <link rel="stylesheet" href="styles.css">
+  <link rel="canonical" href="https://herbchina-extracts.vercel.app/contact.html">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "HerbChina Extracts",
+    "url": "https://herbchina-extracts.vercel.app/",
+    "foundingDate": "2019",
+    "description": "Botanical and mushroom extract supplier based in Xi'an, China, serving overseas buyers.",
+    "address": {"@type": "PostalAddress", "addressLocality": "Xi'an", "addressCountry": "CN"},
+    "contactPoint": {"@type": "ContactPoint", "telephone": "+86-135-7292-7148", "contactType": "sales"}
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "HerbChina Extracts",
+    "url": "https://herbchina-extracts.vercel.app/"
+  }
+  </script>
 </head>
 <body>
 
@@ -20,6 +41,8 @@
       <a class="nav-link" href="index.html">Home</a>
       <a class="nav-link" href="products.html">Products</a>
       <a class="nav-link" href="quality.html">Quality</a>
+      <a class="nav-link" href="faq.html">FAQ</a>
+      <a class="nav-link" href="resources.html">Resources</a>
       <a class="nav-link" href="about.html">About</a>
       <a class="nav-link active" href="contact.html">Contact</a>
       <a class="btn btn-small" href="contact.html">Get a Quote</a>
@@ -42,7 +65,7 @@
       <div class="contact-card reveal">
         <h3>Reach us directly</h3>
         <div class="contact-row">
-          <span class="contact-label">Phone / WhatsApp / WeChat</span>
+          <span class="contact-label">Phone / WeChat</span>
           <a class="contact-value" href="tel:+8613572927148">+86 135 7292 7148</a>
         </div>
         <div class="contact-row">
@@ -50,15 +73,15 @@
           <span class="contact-value" style="font-size:17px">Xi'an, China</span>
         </div>
         <div class="contact-actions">
-          <a class="btn btn-small btn-light" href="https://wa.me/8613572927148?text=Hello%20HerbChina%20Extracts%2C%20I%27d%20like%20to%20inquire%20about%20your%20extracts." target="_blank" rel="noopener">Chat on WhatsApp</a>
-          <a class="btn btn-small btn-outline" style="color:#fff;border-color:rgba(255,255,255,.5)" href="tel:+8613572927148">Call Us</a>
+          <a class="btn btn-small btn-light" href="tel:+8613572927148">Call Us</a>
         </div>
         <p style="margin-top:22px;font-size:13.5px;color:rgba(255,255,255,.6)">Prefer WeChat? Add us directly: +86 135 7292 7148</p>
+        <p style="margin-top:10px;font-size:13.5px;color:rgba(255,255,255,.6)">We respond within 24 hours.</p>
       </div>
 
       <div class="form-card reveal">
         <h3>Send an inquiry</h3>
-        <p>Fill this in — it opens WhatsApp with your message ready to send.</p>
+        <p>Fill this in to prepare your inquiry text — nothing is sent automatically.</p>
         <form id="inquiry-form">
           <div class="form-row">
             <div class="field">
@@ -87,11 +110,20 @@
           </div>
           <div class="field">
             <label for="f-msg">Target spec / volume / destination</label>
-            <textarea id="f-msg" placeholder="e.g. Reishi extract, beta-glucan ≥ 30%, fruiting body, 500 kg, to Rotterdam…" required></textarea>
+            <textarea id="f-msg" placeholder="e.g. Reishi extract, fruiting body, 500 kg, to Rotterdam&#8230;" required></textarea>
           </div>
-          <button type="submit" class="btn" style="width:100%">Send via WhatsApp</button>
-          <p class="form-note">This opens WhatsApp with your inquiry pre-filled. No account or signup needed on our site.</p>
+          <button type="submit" class="btn" style="width:100%">Prepare My Inquiry</button>
+          <p class="form-note">This prepares your message below. Copy it and send it to us via WeChat (+86 135 7292 7148), or call us directly.</p>
         </form>
+        <div id="inquiry-ready" class="inquiry-ready" hidden>
+          <h4>Your inquiry is ready</h4>
+          <textarea id="inquiry-text" readonly rows="9"></textarea>
+          <div class="inquiry-ready-actions">
+            <button type="button" class="btn btn-small" id="copy-inquiry">Copy Text</button>
+            <a class="btn btn-small btn-outline" href="tel:+8613572927148">Call +86 135 7292 7148</a>
+          </div>
+          <p class="form-note">WeChat: add +86 135 7292 7148 and paste your inquiry. We aim to respond within 24 hours.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -130,6 +162,8 @@
         <ul class="footer-links">
           <li><a href="products.html">Products</a></li>
           <li><a href="quality.html">Quality</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="resources.html">Resources</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -138,14 +172,14 @@
         <h4>Contact</h4>
         <ul class="footer-links">
           <li><a href="tel:+8613572927148">+86 135 7292 7148</a></li>
-          <li>Phone / WhatsApp / WeChat</li>
+          <li>Phone / WeChat</li>
           <li>Xi'an, China</li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <span>© <span id="year">2026</span> HerbChina Extracts. All rights reserved.</span>
-      <span>Xi'an, China</span>
+      <span>Founded 2019 · Xi'an, China</span>
     </div>
   </div>
 </footer>
