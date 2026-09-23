@@ -32,7 +32,8 @@
   var yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-  // Inquiry form -> WhatsApp
+  // Inquiry form -> prepares text for the buyer to copy and send via WeChat/call.
+  // No backend, no auto-send: honest by design.
   var form = document.getElementById('inquiry-form');
   if (form) {
     form.addEventListener('submit', function (e) {
@@ -49,7 +50,30 @@
         'Email: ' + email + '\n' +
         'Interest: ' + interest + '\n\n' +
         'Inquiry:\n' + msg;
-      window.open('https://wa.me/8613572927148?text=' + encodeURIComponent(text), '_blank');
+      var ready = document.getElementById('inquiry-ready');
+      var out = document.getElementById('inquiry-text');
+      if (ready && out) {
+        out.value = text;
+        ready.hidden = false;
+        ready.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
     });
+    var copyBtn = document.getElementById('copy-inquiry');
+    if (copyBtn) {
+      copyBtn.addEventListener('click', function () {
+        var out = document.getElementById('inquiry-text');
+        var done = function () {
+          copyBtn.textContent = 'Copied \u2713';
+          setTimeout(function () { copyBtn.textContent = 'Copy Text'; }, 2000);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(out.value).then(done, function () {
+            out.select(); document.execCommand('copy'); done();
+          });
+        } else {
+          out.select(); document.execCommand('copy'); done();
+        }
+      });
+    }
   }
 })();
