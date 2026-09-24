@@ -223,6 +223,17 @@ a.contact-value:hover { color: var(--gold); }
 /* reveal animation */
 .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
 .reveal.visible { opacity: 1; transform: none; }
+/* product pages */
+.product-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 40px; }
+.product-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 24px 22px; text-decoration: none; color: inherit; display: block; }
+.product-card:hover { border-color: var(--green-700); }
+.product-card h3 { font-size: 18px; margin-bottom: 4px; }
+.product-card .latin { font-style: italic; color: var(--muted); font-size: 14px; }
+.product-card p { font-size: 14px; color: var(--muted); margin-top: 8px; }
+.product-card .go { color: var(--green-700); font-weight: 700; font-size: 14px; margin-top: 12px; display: inline-block; }
+.app-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 36px; }
+.app-card { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; font-size: 15px; }
+
 @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
 
 /* ---------- responsive ---------- */
@@ -312,13 +323,3 @@ a.contact-value:hover { color: var(--gold); }
   .resource-grid { grid-template-columns: 1fr; }
 }
 
-/* product pages */
-.product-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 40px; }
-.product-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 24px 22px; text-decoration: none; color: inherit; display: block; }
-.product-card:hover { border-color: var(--green-700); }
-.product-card h3 { font-size: 18px; margin-bottom: 4px; }
-.product-card .latin { font-style: italic; color: var(--muted); font-size: 14px; }
-.product-card p { font-size: 14px; color: var(--muted); margin-top: 8px; }
-.product-card .go { color: var(--green-700); font-weight: 700; font-size: 14px; margin-top: 12px; display: inline-block; }
-.app-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 36px; }
-.app-card { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; font-size: 15px; }
