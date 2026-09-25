@@ -1,0 +1,46 @@
+# HerbChina Extracts — llms.txt
+
+HerbChina Extracts (https://herbchina-extracts.vercel.app/) is a botanical and
+mushroom extract supplier based in Xi'an, China, founded in 2019. We serve
+overseas B2B buyers (supplement, food, and nutraceutical brands) with bulk
+botanical extracts, mushroom extracts, and related ingredients. We are a
+trading company working with vetted partner producers; quotations are
+prepared against buyer specifications with COA/TDS documentation arranged
+per batch. Product images on this site are illustrative diagrams, not
+photographs of our facilities or inventory.
+
+## Key pages
+
+- Home: https://herbchina-extracts.vercel.app/index.html
+- All products: https://herbchina-extracts.vercel.app/products.html
+- Botanical extracts: https://herbchina-extracts.vercel.app/botanical-extracts.html
+- Mushroom extracts: https://herbchina-extracts.vercel.app/mushroom-extracts.html
+- About: https://herbchina-extracts.vercel.app/about.html
+- Contact / request a quote: https://herbchina-extracts.vercel.app/contact.html
+- Quality approach: https://herbchina-extracts.vercel.app/quality.html
+- FAQ: https://herbchina-extracts.vercel.app/faq.html
+- Resources: https://herbchina-extracts.vercel.app/resources.html
+- Privacy policy: https://herbchina-extracts.vercel.app/privacy.html
+
+## Buyer guides
+
+- Fruiting Body vs Mycelium Extract: https://herbchina-extracts.vercel.app/fruiting-body-vs-mycelium.html
+- How to Read a Botanical Extract COA: https://herbchina-extracts.vercel.app/coa-guide.html
+- Reading a COA — Buyer's Guide: https://herbchina-extracts.vercel.app/reading-coa-buyers-guide.html
+
+## Product pages
+
+402 bulk ingredient pages, one per product, each with a specification table
+(appearance, marker compounds, analytical methods), applications, related
+products, and product-specific FAQs with FAQPage structured data. Full list:
+https://herbchina-extracts.vercel.app/sitemap.xml
+
+Popular categories: adaptogens (ashwagandha, rhodiola, ginseng), mushroom
+extracts (reishi, lion's mane, cordyceps), antioxidants (green tea EGCG,
+grape seed, pine bark), and functional powders (creatine monohydrate,
+magnesium glycinate, NMN).
+
+## Contact
+
+Phone / WeChat: +86 135 7292 7148. Inquiry form:
+https://herbchina-extracts.vercel.app/contact.html

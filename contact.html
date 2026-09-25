@@ -19,6 +19,7 @@
     "@type": "Organization",
     "name": "HerbChina Extracts",
     "url": "https://herbchina-extracts.vercel.app/",
+    "sameAs": ["https://www.linkedin.com/company/113314103"],
     "foundingDate": "2019",
     "description": "Botanical and mushroom extract supplier based in Xi'an, China, serving overseas buyers.",
     "address": {"@type": "PostalAddress", "addressLocality": "Xi'an", "addressCountry": "CN"},
@@ -114,6 +115,16 @@
               <input id="f-email" type="email" placeholder="you@company.com" required>
             </div>
             <div class="field">
+              <label for="f-country">Country</label>
+              <input id="f-country" type="text" placeholder="United States">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="f-product">Product of interest</label>
+              <input id="f-product" type="text" placeholder="e.g. Ashwagandha Extract">
+            </div>
+            <div class="field">
               <label for="f-interest">I'm interested in</label>
               <select id="f-interest">
                 <option>Botanical Extracts</option>
@@ -127,8 +138,10 @@
             <label for="f-msg">Target spec / volume / destination</label>
             <textarea id="f-msg" placeholder="e.g. Reishi extract, fruiting body, 500 kg, to Rotterdam&#8230;" required></textarea>
           </div>
-          <button type="submit" class="btn" style="width:100%">Prepare My Inquiry</button>
-          <p class="form-note">This prepares your message below. Copy it and send it to us via WeChat (+86 135 7292 7148), or call us directly.</p>
+          <input type="text" id="f-website" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;opacity:0" aria-hidden="true">
+          <button type="submit" class="btn" style="width:100%" id="inquiry-submit">Send Inquiry</button>
+          <p class="form-note">By submitting, you agree to our <a href="privacy.html">Privacy Policy</a>. Prefer WeChat? Add +86 135 7292 7148.</p>
+          <p class="form-note" id="inquiry-status" role="status" hidden></p>
         </form>
         <noscript>
           <p class="form-note">JavaScript is turned off in your browser, so the inquiry builder can't run. Please contact us directly instead: WeChat / call +86 135 7292 7148.</p>
@@ -141,6 +154,11 @@
             <a class="btn btn-small btn-outline" href="tel:+8613572927148">Call +86 135 7292 7148</a>
           </div>
           <p class="form-note">WeChat: add +86 135 7292 7148 and paste your inquiry. We aim to respond promptly.</p>
+        </div>
+        <div id="inquiry-success" class="inquiry-ready" hidden>
+          <h4>Inquiry sent</h4>
+          <p>Thanks — your inquiry is on its way to our sales team. We aim to respond promptly.</p>
+          <p class="form-note">Need it faster? WeChat / call +86 135 7292 7148.</p>
         </div>
       </div>
     </div>
@@ -192,12 +210,13 @@
           <li><a href="tel:+8613572927148">+86 135 7292 7148</a></li>
           <li>Phone / WeChat</li>
           <li>Xi'an, China</li>
+          <li><a href="https://www.linkedin.com/company/113314103">LinkedIn</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <span>© <span id="year">2026</span> HerbChina Extracts. All rights reserved.</span>
-      <span>Founded 2019 · Xi'an, China</span>
+      <span>Founded 2019 · Xi'an, China · <a href="privacy.html">Privacy</a></span>
     </div>
   </div>
 </footer>

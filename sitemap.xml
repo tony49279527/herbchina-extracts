@@ -117,7 +117,6 @@
   <url><loc>https://herbchina-extracts.vercel.app/polyporus-extract.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/pomegranate-extract.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/mangosteen-extract.html</loc><priority>0.7</priority></url>
-  <url><loc>https://herbchina-extracts.vercel.app/matcha-powder.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/yerba-mate-extract.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/jujube-seed-extract.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/angelica-sinensis-extract.html</loc><priority>0.7</priority></url>
@@ -185,7 +184,6 @@
   <url><loc>https://herbchina-extracts.vercel.app/biotin-powder.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/cassia-seed-extract.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/shatavari-extract.html</loc><priority>0.7</priority></url>
-  <url><loc>https://herbchina-extracts.vercel.app/damiana-leaf-extract.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/grains-of-paradise-extract.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/triphala-powder.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/5-htp-powder.html</loc><priority>0.7</priority></url>
@@ -195,7 +193,6 @@
   <url><loc>https://herbchina-extracts.vercel.app/rosehip-extract.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/red-clover-extract.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/dihydroberberine-powder.html</loc><priority>0.7</priority></url>
-  <url><loc>https://herbchina-extracts.vercel.app/kudzu-root-extract.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/gynostemma-extract.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/dendrobium-extract.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/eucommia-extract.html</loc><priority>0.7</priority></url>
@@ -362,7 +359,6 @@
   <url><loc>https://herbchina-extracts.vercel.app/guava-extract.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/jujube-extract.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/black-seed-oil.html</loc><priority>0.7</priority></url>
-  <url><loc>https://herbchina-extracts.vercel.app/creatine-monohydrate-powder.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/sunflower-lecithin-powder.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/cayenne-extract.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/fennel-extract.html</loc><priority>0.7</priority></url>
@@ -384,7 +380,6 @@
   <url><loc>https://herbchina-extracts.vercel.app/argan-oil.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/evening-primrose-oil.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/yacon-root-extract.html</loc><priority>0.7</priority></url>
-  <url><loc>https://herbchina-extracts.vercel.app/psyllium-husk-powder.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/damiana-extract.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/matcha-extract.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/longan-extract.html</loc><priority>0.7</priority></url>
@@ -419,4 +414,7 @@
   <url><loc>https://herbchina-extracts.vercel.app/gastrodia-extract.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/truffle-extract.html</loc><priority>0.7</priority></url>
   <url><loc>https://herbchina-extracts.vercel.app/bladderwrack-extract.html</loc><priority>0.7</priority></url>
+  <url>
+    <loc>https://herbchina-extracts.vercel.app/privacy.html</loc>
+  </url>
 </urlset>
