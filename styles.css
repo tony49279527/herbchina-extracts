@@ -323,3 +323,8 @@ a.contact-value:hover { color: var(--gold); }
   .resource-grid { grid-template-columns: 1fr; }
 }
 
+
+/* ---------- product photo (illustrative image) ---------- */
+.product-photo { max-width: 640px; margin: 28px auto 0; text-align: center; }
+.product-photo img { width: 100%; height: auto; display: block; border-radius: var(--radius); }
+.product-photo figcaption { font-size: 12px; color: var(--muted); margin-top: 8px; }
