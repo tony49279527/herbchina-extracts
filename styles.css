@@ -328,3 +328,14 @@ a.contact-value:hover { color: var(--gold); }
 .product-photo { max-width: 640px; margin: 28px auto 0; text-align: center; }
 .product-photo img { width: 100%; height: auto; display: block; border-radius: var(--radius); }
 .product-photo figcaption { font-size: 12px; color: var(--muted); margin-top: 8px; }
+
+/* 2026-09-29 性能补丁：枢纽页 402 卡片渐进渲染（内容/DOM/URL 零变更） */
+.product-card { content-visibility: auto; contain-intrinsic-size: auto 120px; }
+
+/* 2026-09-29 相关提取物区块（主题簇内链第一批） */
+.related-extracts { padding-top: 0; }
+.related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; margin-top: 20px; }
+.related-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 18px; text-decoration: none; color: inherit; display: block; content-visibility: auto; contain-intrinsic-size: auto 110px; }
+.related-card:hover { border-color: var(--green-700); }
+.related-card h3 { font-size: 16px; margin-bottom: 6px; }
+.related-card .go { font-size: 14px; color: var(--green-700); }
