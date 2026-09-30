@@ -13,7 +13,7 @@ Xi'an, China), supplier of botanical and mushroom extracts for overseas buyers.
 - `coa-guide.html` — Article: how to read a botanical extract COA
 - `fruiting-body-vs-mycelium.html` — Article: fruiting body vs mycelium buyer's guide
 - `about.html` — Company story, principles
-- `contact.html` — Contact card + inquiry form (prepares message text; buyer sends via WeChat/call — no backend, no WhatsApp)
+- `contact.html` — Contact card + inquiry form (POSTs to `/api/inquire` via Resend; copy-to-WeChat fallback on failure)
 - `sitemap.xml` / `robots.txt` — SEO
 - `styles.css` — shared design system (Fraunces + Inter via Google Fonts)
 - `main.js` — mobile nav, scroll-reveal animations, inquiry form handler

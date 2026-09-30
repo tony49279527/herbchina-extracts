@@ -209,6 +209,16 @@ a.contact-value:hover { color: var(--gold); }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .form-note { font-size: 13px; color: var(--muted); margin-top: 16px; }
 
+/* directory filter (HC-04): client-side find tool, links stay in DOM */
+.dir-filter { margin: 22px 0 6px; max-width: 520px; }
+.dir-filter label { display: block; font-weight: 600; margin-bottom: 8px; }
+.dir-filter input[type="search"] {
+  width: 100%; border: 1.5px solid var(--line); border-radius: 10px;
+  padding: 12px 15px; font-size: 16px; font-family: inherit; background: var(--cream);
+}
+.dir-filter input[type="search"]:focus { outline: none; border-color: var(--green-700); background: #fff; }
+.dir-count { font-size: 13px; color: var(--muted); margin-top: 8px; min-height: 20px; }
+
 /* footer */
 .site-footer { background: var(--green-900); color: rgba(255,255,255,.72); padding: 64px 0 0; margin-top: 0; }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 40px; padding-bottom: 48px; }
