@@ -1,0 +1,12 @@
+.vercel
+.github
+docs
+reports
+scripts
+tmp
+node_modules
+SPEC.md
+PLAN.md
+STATUS.md
+.env*
+**/.DS_Store

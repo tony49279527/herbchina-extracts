@@ -20,6 +20,8 @@ photographs of our facilities or inventory.
 - Quality approach: https://herbchina-extracts.vercel.app/quality.html
 - FAQ: https://herbchina-extracts.vercel.app/faq.html
 - Resources: https://herbchina-extracts.vercel.app/resources.html
+- Suppliers: https://herbchina-extracts.vercel.app/suppliers.html
+- Turmeric Extract Manufacturers: https://herbchina-extracts.vercel.app/turmeric-extract-manufacturers.html
 - Privacy policy: https://herbchina-extracts.vercel.app/privacy.html
 
 ## Buyer guides
@@ -30,7 +32,7 @@ photographs of our facilities or inventory.
 
 ## Product pages
 
-402 bulk ingredient pages, one per product, each with a specification table
+407 bulk ingredient pages, one per product, each with a specification table
 (appearance, marker compounds, analytical methods), applications, related
 products, and product-specific FAQs with FAQPage structured data. Full list:
 https://herbchina-extracts.vercel.app/sitemap.xml
